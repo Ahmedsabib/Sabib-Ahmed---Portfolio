@@ -163,16 +163,25 @@
 
         <div class="news">
 
-
-
-
             <section class="news-section">
             <h2 id="news">News</h2>
             
             <div class="news-list-wrapper">
                 <ul class="news-list">
 
+                
                 <li class="is-new">
+                <span>
+                    <span class="badge-new">New!</span>
+                    <span class="date">June 2026:</span>
+                    Our article <em>Clinically Explainable Cross-Attention CNN–ViT Framework for Automated Multi-Class Retinal Disease Screening Using OCT</em>
+                    accepted to
+                    <a class="conf" href="https://link.springer.com/journal/11760">Signal, Image and Video Processing (Springer Nature)</a>.
+                </span>
+                </li>
+                
+                
+                    <li class="is-new">
                 <span>
                     <span class="badge-new">New!</span>
                     <span class="date">June 2026:</span>
@@ -386,23 +395,28 @@
                 <li>
                     <div class="uk-text-lead"><a href="https://link.springer.com/journal/11760" style="color:#b30749"><b>[Springer SIVP (Q2)]</b></a> &nbsp; Clinically Explainable Cross-Attention CNN–ViT Framework for Automated Multi-Class Retinal Disease Screening Using OCT</div>
                     <div> <b>Sabib Ahmed</b>, Jannatul Ferdus Aspia, Md Tanver Rana Sobur, Md. Khabir Uddin Ahamed </div>
-                    <div><i>Signal, Image and Video Processing, <b>Springer</b></i></div>
+                    <div><i>Signal, Image and Video Processing, <b>Springer Nature</b></i></div>
                     <div><b style="color:  #ff3333;">Schimago Ranking: Q2</b></div>
-                    <div><span style="background-color: #17a2b8; color: white; padding: 2px 5px; border-radius: 5px;">Under Review</span></div>
+                    <div><span style="background-color: lightgreen; padding: 2px 5px; border-radius: 5px;">Accepted</span></div>
                     <details style="margin-top: 10px;">
                         <summary style="cursor: pointer; font-weight: 600; color: #b30749;">
-                            📄 Details
+                            📄 Abstract
                         </summary>
 
                         <div style="margin-top: 8px; line-height: 1.6; color: #444; text-align: justify;">
-                            This paper proposes a cross-attention–based CNN–ViT hybrid framework that is novel in how it actively fuses local 
-                            lesion features and global contextual information, rather than simply combining them through standard concatenation. 
-                            By allowing CNN features (fine-grained retinal details) to dynamically attend to transformer representations (global structure), 
-                            the model captures subtle inter-class differences that conventional architectures miss. Its second key innovation is a unified 
-                            explainability mechanism (Grad-Attention Map) that merges Grad-CAM and transformer attention into a single, clinically interpretable 
-                            visualization, providing both precise lesion localization and global reasoning in one view. Validated on a relatively complex 8-class OCT 
-                            classification task, the framework stands out for 
-                            jointly advancing feature fusion, interpretability, and clinical reliability, making it a strong and practically meaningful contribution beyond incremental accuracy gains.
+                        Optical Coherence Tomography (OCT) is essential for early retinal disease detection, enabling timely intervention 
+                        and preventing vision loss. However, the rapid growth of OCT data has increased diagnostic workload, motivating 
+                        automated, accurate, and clinically interpretable computer-aided diagnostic systems. In this study, we propose a 
+                        Cross-Attention CNN-ViT hybrid framework combining DenseNet201-based local feature extraction with ViT-Base/16 global 
+                        contextual modeling via cross-attention, capturing both fine-grained lesions and long-range retinal dependencies. For 
+                        interpretability, we introduce a dual explainability framework that fuses Grad-CAM and transformer attention into a unified 
+                        Grad-Attention Map (GAM), visualizing both localized pathological biomarkers and global retinal context. The model is 
+                        evaluated on the Kaggle OCT C8 dataset (24,000 images, eight classes: AMD, CNV, CSR, DME, DR, drusen, macular hole, normal), 
+                        split into training, validation, and independent test sets, with five-fold cross-validation applied only on training data 
+                        under strict image-level separation. It achieves 97.42% accuracy, 99.63% specificity, and 97.41% F1-score, outperforming CNN, 
+                        transformer, and hybrid baselines. GAM visualizations align with clinically relevant biomarkers, indicating strong interpretability. 
+                        The framework demonstrates a robust and scalable system for automated retinal screening, triage, and diagnosis.    
+                        
                         </div>
                     </details>
                     <div class="uk-text-lead"></div>
