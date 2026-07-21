@@ -1,6 +1,5 @@
 /* Sabib Ahmed Portfolio - Mobile Responsive */
 
-/* ---------- RESET & BASE ---------- */
 *,
 *::before,
 *::after {
@@ -336,10 +335,10 @@ a.conf:hover {
 }
 
 /* ============================================
-   📱 মোবাইল রেস্পন্সিভ (সব ফিক্স সহ)
+   📱 Responsive
    ============================================ */
 
-/* ---------- ট্যাবলেট (≤ 960px) ---------- */
+/* ---------- Tab (≤ 960px) ---------- */
 @media (max-width: 960px) {
     .uk-container {
         padding-left: 15px;
@@ -354,7 +353,7 @@ a.conf:hover {
     }
 }
 
-/* ---------- মোবাইল (≤ 768px) ---------- */
+/* ---------- Mobile (≤ 768px) ---------- */
 @media (max-width: 768px) {
     .uk-border-circle {
     max-width: 220px !important;
@@ -373,12 +372,12 @@ span[style*="background-color"] {
         width: 100% !important;
     }
 
-    /* ইমেজ মোবাইলে দেখাবে */
+    /* Email showing in mobile */
     .uk-visible\@m {
         display: block !important;
     }
 
-    /* টেক্সট পুরো প্রস্থে */
+    /* Text full width */
    .uk-width-expand {
         width: 100% !important;
         padding: 0 12px !important;
@@ -392,7 +391,7 @@ span[style*="background-color"] {
         overflow-wrap: break-word;
     }
 
-    /* হেডিং ছোট */
+    /* small heading */
     .uk-h2,
     h2 {
         font-size: 1.25rem !important;
@@ -401,12 +400,12 @@ span[style*="background-color"] {
         word-wrap: break-word;
     }
 
-    /* কার্ড প্যাডিং কম */
+    /* less card padding */
     .uk-card-body {
         padding: 15px 16px !important;
     }
 
-    /* এডুকেশন গ্রিড */
+    /* education grid */
     .uk-grid-small > * {
         padding-left: 10px;
     }
@@ -416,7 +415,7 @@ span[style*="background-color"] {
         margin-bottom: 5px;
     }
 
-    /* রিসার্চ এক্সপেরিয়েন্স */
+    /* research experience */
     .uk-flex-between {
         flex-direction: column !important;
         align-items: flex-start !important;
@@ -427,7 +426,7 @@ span[style*="background-color"] {
         margin-top: 5px;
     }
 
-    /* নিউজ সেকশন */
+    /* news section */
     .news-section h2 {
         font-size: 1.4rem;
         padding-left: 0.5rem;
@@ -459,7 +458,7 @@ span[style*="background-color"] {
         font-size: 0.82rem;
     }
 
-    /* কনট্যাক্ট */
+    /* contact */
     .uk-child-width-1-2\@m > * {
         width: 100% !important;
         margin-bottom: 15px;
@@ -469,7 +468,7 @@ span[style*="background-color"] {
         width: 100% !important;
     }
 
-    /* সোশ্যাল আইকন */
+    /* social icon */
     .social-icon {
         width: 42px;
         height: 42px;
@@ -481,7 +480,7 @@ span[style*="background-color"] {
         font-size: 16px;
     }
 
-    /* পাবলিকেশন */
+    /* publication */
     .uk-text-lead {
         font-size: 0.88rem !important;
         word-wrap: break-word;
@@ -498,25 +497,25 @@ span[style*="background-color"] {
         margin-right: -10px;
     }
 
-    /* স্কিলস */
+    /* skills */
     .uk-list-bullet > li {
     font-size: 0.88rem;
     padding: 4px 0 4px 20px; /* left-এ ২০px জায়গা রাখা হলো বুলেটের জন্য */
     word-wrap: break-word;
 }
 
-    /* থিসিস */
+    /* thesis */
     #thesis .uk-text-lead {
         font-size: 0.9rem;
     }
 
-    /* পজিশন */
+    /* position */
     .uk-flex-middle\@s {
         flex-direction: column !important;
         align-items: flex-start !important;
     }
 
-    /* ফুটার */
+    /* footer */
     .uk-section-secondary {
         padding: 12px 0;
     }
@@ -534,7 +533,7 @@ span[style*="background-color"] {
     padding: 1px 4px !important;
 }
 
-    /* নেভিগেশন */
+    /* nagivation */
     .uk-visible\@m {
         display: none !important;
     }
@@ -556,7 +555,7 @@ span[style*="background-color"] {
     }
 }
 
-/* ---------- ছোট ফোন (≤ 480px) ---------- */
+/* ---------- small phone (≤ 480px) ---------- */
 @media (max-width: 480px) {
     .uk-container {
         padding-left: 6px !important;
@@ -631,7 +630,7 @@ span[style*="background-color"] {
     }
 }
 
-/* ---------- বড় স্ক্রিন (≥ 1200px) ---------- */
+/* ---------- big screen (≥ 1200px) ---------- */
 @media (min-width: 1200px) {
     .uk-container {
         padding-left: 30px;
@@ -648,7 +647,7 @@ span[style*="background-color"] {
     }
 }
 
-/* ---------- প্রিন্ট ---------- */
+/* ---------- print ---------- */
 @media print {
     .uk-navbar-container,
     .uk-section-secondary {
